@@ -2,8 +2,12 @@
 My modified cutefetch script (It's a frankenstein, do not use)
 
 # Installation
-add
+copy this to /bin/
 ```
-alias cutefetch="cutefetch -b"
+cp Downloads/cutefetch.txt /bin/cutefetch
 ```
-to your shell and then change the "kern" variable to whatever OS you use.
+add to your shell:
+```
+alias cutefetch="sh /bin/cutefetch -b"
+```
+then change the "kern" variable to whatever OS you use.
